@@ -51,6 +51,7 @@ body {
     font-size: 48px; /* 큰 텍스트 */
     color: #000;
     font-weight: bold;
+    font-weight: 900;
 }
 
 .main-content p {
@@ -115,6 +116,7 @@ body {
     text-align: center; /* 텍스트를 중앙 정렬 */
     margin: 5px;
     flex: 1;
+    font-size: 15px;
 }
 
 .icon img {
@@ -177,11 +179,12 @@ body {
 
     .live-chat {
         font-size: 14px; /* 카톡 문의 버튼 텍스트 크기 축소 */
+        padding: 8px 10px; /* 패딩도 줄일 수 있음 */
         white-space: nowrap; /* 한 줄로 유지 */
     }
 
     .large-text {
-        font-size: 28px; /* 메인 큰 텍스트 크기 축소 */
+        font-size: 26px; /* 메인 큰 텍스트 크기 축소 */
     }
 
     .main-content p {
@@ -218,5 +221,20 @@ body {
 
     .iframe-wrapper {
         height: 1200px; /* 모바일에서 iframe 높이 축소 */
+    }
+
+    .services .yellow.large.bold-yellow {
+        font-size: 40px; /* 바이럴 숏폼 SNS 퍼포먼스 글씨 크기 키움 */
+        font-weight: bold;
+        color: #FFD700; /* 진한 노란색 (골드) */
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .mbr::after {
+        content: "\A"; /* 줄바꿈 문자 */
+        white-space: pre; /* 줄바꿈을 적용 */
     }
 }
