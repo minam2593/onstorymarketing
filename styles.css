@@ -131,7 +131,7 @@ body {
 }
 
 .icon img {
-    max-width: 90px; /* 이미지 크기 조정 */
+    max-width: 85px; /* 이미지 크기 조정 */
     height: auto;
     margin-bottom: 10px; /* 이미지와 텍스트 사이에 간격 추가 */
 }
